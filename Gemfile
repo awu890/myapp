@@ -5,8 +5,8 @@ ruby '2.6.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.6'
+# Use postgresql as the database for Active Record
+gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -64,3 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
+
+gem 'bootstrap', '~> 4.1.0'
+gem 'jquery-rails'
+gem 'pusher'
+gem 'figaro'
+gem 'therubyracer'
